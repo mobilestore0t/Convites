@@ -31,8 +31,18 @@ main{padding-bottom:40px}
 .programa{margin:0 24px}
 .item{background:var(--menta);padding:12px 4% ;margin-bottom:46px}
 .item{display:flex;align-items:center;gap:14px;border:2px solid var(--verde);border-radius:10px;background:#f8fffb;padding:12px 14px}
-.ic{flex:0 0 56px;height:56px;border-radius:50%;background:var(--verde);display:grid;place-items:center;font-size:26px;filter:grayscale(1) brightness(3)}
-.item h3{font-size:24px;border-left:2px solid #333;padding-left:12px;line-height:1.1}
+.ic{
+  flex:0 0 56px;
+  height:56px;
+  border-radius:50%;
+  background:var(--verde);
+  display:grid;
+  place-items:center;
+  font-size:26px;
+}
+.ic span{
+  filter:grayscale(1) brightness(0) invert(1); /* emoji fica branco puro */
+}.item h3{font-size:24px;border-left:2px solid #333;padding-left:12px;line-height:1.1}
 .item p{font-size:18px;padding-left:14px}
 .verde{background:var(--verde);color:#fff;text-align:center;padding:50px 28px}
 .verde h2{font:700 30px 'Open Sans',sans-serif;line-height:1.5}
@@ -239,4 +249,19 @@ main{padding-bottom:40px}
     height:58px;
     font-size:27px;
   }
+}
+.btn-mapa {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 14px;
+  background: #1f6f63;      /* ajusta ao verde do teu site */
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.2s, transform 0.2s;
+}
+.btn-mapa:hover {
+  background: #17554c;
+  transform: translateY(-1px);
 }
