@@ -82,7 +82,7 @@
   // ---------- RSVP → WhatsApp ----------
   // Número que vai RECEBER as confirmações, em formato internacional,
   // só dígitos, sem "+", espaços ou traços. Ex.: Moçambique 84 123 4567 → "258841234567"
-  const WHATSAPP_NUMBER = '258842366880';
+  const WHATSAPP_NUMBER = '258870366884';
 
   const rsvpForm = document.getElementById('rsvpForm');
   const rsvpMsg = document.getElementById('rsvpMsg');
